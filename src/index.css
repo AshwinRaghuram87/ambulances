@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-slate-850 {
+    background-color: #111827;
+  }
+  .bg-slate-750 {
+    background-color: #243044;
+  }
+}
+
+/* Leaflet Clean Custom DivIcon */
+.leaflet-div-icon {
+  background: transparent !important;
+  border: none !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #0f172a !important;
+  color: #f8fafc !important;
+  border: 1px solid #334155 !important;
+  border-radius: 14px !important;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5) !important;
+}
+
+.leaflet-popup-tip {
+  background: #0f172a !important;
+  border: 1px solid #334155 !important;
+}
+
+.leaflet-popup-content {
+  margin: 12px 14px !important;
+  line-height: 1.4 !important;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes slideLeft {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes sirenBeacon {
+  0%, 100% {
+    box-shadow: 0 0 14px 4px rgba(239, 68, 68, 0.9), 0 0 25px 8px rgba(59, 130, 246, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 14px 4px rgba(59, 130, 246, 0.9), 0 0 25px 8px rgba(239, 68, 68, 0.7);
+  }
+}
+
+.animate-siren-strobe {
+  animation: sirenBeacon 0.8s infinite ease-in-out;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.2s ease-out forwards;
+}
+
+.animate-slide-left {
+  animation: slideLeft 0.25s ease-out forwards;
+}

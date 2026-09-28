@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="128" fill="#0f766e"/>
+  <circle cx="256" cy="256" r="180" fill="#134e4a" opacity="0.6"/>
+  <!-- Garbage Tipper Auto SVG -->
+  <g transform="translate(86, 120)" fill="white">
+    <!-- Cabin -->
+    <path d="M70 200 L130 110 L230 110 L230 200 Z" fill="#38bdf8"/>
+    <path d="M40 200 L230 200 L230 230 L40 230 Z" fill="#0284c7"/>
+    <!-- Tipper Body -->
+    <path d="M235 90 L330 90 L340 200 L235 200 Z" fill="#34d399"/>
+    <rect x="245" y="105" width="80" height="85" rx="6" fill="#059669"/>
+    <!-- Recycle Symbol -->
+    <circle cx="285" cy="148" r="22" fill="#10b981"/>
+    <!-- Wheels -->
+    <circle cx="95" cy="235" r="28" fill="#0f172a" stroke="#94a3b8" stroke-width="8"/>
+    <circle cx="295" cy="235" r="28" fill="#0f172a" stroke="#94a3b8" stroke-width="8"/>
+    <!-- GPS signal waves -->
+    <path d="M190 45 A 50 50 0 0 1 250 45" stroke="#facc15" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <path d="M175 30 A 70 70 0 0 1 265 30" stroke="#facc15" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <circle cx="220" cy="55" r="8" fill="#facc15"/>
+  </g>
+</svg>

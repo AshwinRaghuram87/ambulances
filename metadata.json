@@ -1,0 +1,6 @@
+{
+  "name": "SWM Auto Fleet Tracker",
+  "description": "Solid waste management auto tipper and emergency ambulance fleet tracking system with hardware GPS telemetry, mobile phone tracking, and live open source maps.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
